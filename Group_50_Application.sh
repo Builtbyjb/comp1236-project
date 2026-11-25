@@ -69,7 +69,6 @@ get_task_choice() {
 verify() {
     local max_attempts=3
     local password="k99"
-
     local password_attempts=0
 
     while [ $max_attempts -ge $password_attempts ]; do
